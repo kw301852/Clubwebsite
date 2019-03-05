@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Digital Arts Club</title>
+    <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/slideshow.css">
+        <link rel="stylesheet" href="css/nav.css">
+  </head>
+  <body>
+
+    <h1>Mr. Wolf!</h1>
+    <img class="wolf"src="images/wolf.jpg" alt="">
+    <ul>
+      <li><a href="slideShow.html">Images</a></li>
+    </ul>
+    <p>Digital Arts Club</p>
+    <p>Golf Coach</p>
+    <p>Teacher</p>
+
+    <h1>Digital Arts Club</h1>
+    <p>Its a calm and friendly working environment where everyone always has a say, and everyone is welcomed. We are always given fun assignments and are never bored, because there is always more to  do. We get great opportunities to showcase our artwork, and improve our artistic abilities.</p>
+    <h2>When do they meet?</h2>
+    <p>They meet every Tuesday after school from the final bell until approximately 4:30.</p><br>
+    <h1>What do they do?</h1>
+    <p>We meet to express our creative talents and work in a group setting with people who understand the process of Digital Editing.</p>
+
+    <h1>Here are some examples of things done by students</h1>
+
+    <div class="row">
+      <div class="column">
+        <img src="images/Amber.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="images/Brandon.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="images/Amber2.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="images/Amber3.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/Amber.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/Brandon.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/Amber2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/Amber3.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+
+        <div class="column">
+          <img class="demo cursor" src="images/Amber.jpg" style="width:100%" onclick="currentSlide(1)" alt="Kalidescope By Amber">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/Brandon.jpg" style="width:100%" onclick="currentSlide(2)" alt="Flags By Brandon">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/Amber2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Bike Parts By Amber">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/Amber3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Louisiana Waters By Amber">
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- <script src="script/javascript.js"></script> -->
+
+      </body>
+    </html>

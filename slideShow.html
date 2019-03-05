@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/slideshow.css">
+  </head>
+  <body>
+
+    <div class="row">
+      <div class="column">
+        <img src="images/Amber.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="images/Brandon.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="images/Amber2.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="images/Amber3.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+
+    </div>
+<br>
+    <div class="row">
+      <div class="column">
+        <img src="images/Cs.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor"><br><br><br><br><br><br><br>
+      </div>
+      <div class="column">
+        <img src="images/Bridge.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="images/Eye.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="images/Gala.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+    </div>
+    
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/Amber.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/Brandon.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/Amber2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/Amber3.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/Cs.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/Bridge.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/Eye.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+
+        <div class="column">
+          <img class="demo cursor" src="images/Amber.jpg" style="width:100%" onclick="currentSlide(1)" alt="Kalidescope By Amber">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/Brandon.jpg" style="width:100%" onclick="currentSlide(2)" alt="Flags By Brandon">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/Amber2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Bike Parts By Amber">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/Amber3.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/Cs.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/Bridge.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/Eye.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+        </div>
+    <br>
+    <br>
+    <br>
+
+  </body>
+</html>

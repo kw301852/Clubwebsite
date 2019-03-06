@@ -3,10 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="css/slideshow.css">
+
+    <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/slideshow.css">
+        <link rel="stylesheet" href="css/nav.css">
   </head>
   <body>
+    <div class="center">
+    <h1>Art And Information Home Page</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="slideShow.html">Images</a></li>
+      <li><a href="about.html">About</a></li>
+    <li><a href="contests.html">Contests</a></li>
 
+    </ul>
+
+    </div>
     <div class="row">
       <div class="column">
         <img src="images/Amber.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
@@ -37,7 +50,7 @@
         <img src="images/Gala.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
       </div>
     </div>
-    
+
     <div id="myModal" class="modal">
       <span class="close cursor" onclick="closeModal()">&times;</span>
       <div class="modal-content">
